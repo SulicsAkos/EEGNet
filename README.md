@@ -20,9 +20,9 @@ To run the EEG/MEG ERP classification sample script, you will also need
 
 # Models Implemented
 
-EEGNet
-DeepConvNet
-ShallowConvNet
+- EEGNet
+- DeepConvNet
+- ShallowConvNet
 
 # Usage
 
