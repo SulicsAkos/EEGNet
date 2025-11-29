@@ -50,3 +50,7 @@ predicted      = model.predict(...)
 
 ```
 
+# Dataset
+
+URL: https://www.kaggle.com/competitions/inria-bci-challenge/data
+
