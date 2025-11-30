@@ -1,0 +1,90 @@
+SIZE:
+6.37 GB
+
+
+FILES:
+60 files
+
+
+TYPE:
+csv
+
+
+FILE DESCRIPTION:
+Training set made of 12 subjects who had gone through 5 sessions, for a total of 60 Data_S*_Sess*.csv files. 60 feedbacks were provided in each session except the fifth one for which 100 feedbacks were provided.
+Data_S*_Sess01.csv -> 60 feedbacks
+Data_S*_Sess02.csv -> 60 feedbacks
+Data_S*_Sess03.csv -> 60 feedbacks
+Data_S*_Sess04.csv -> 60 feedbacks
+Data_S*_Sess05.csv -> 100 feedbacks
+
+
+DATA DESCRIPTION:
+Subject’s brain activity was recorded with 56 passive EEG sensors whose placement followed the extended 10-20 system.
+Eye movements are detected by EOG derivation.
+
+
+DATA_S*_SESS*.CSV CONTAINS THE FOLLOWING FIELDS:
+Time: Timestamp of each sample
+Fp1: EEG samples recorded from Fp1
+Fp2: EEG samples recorded from Fp2
+AF7: EEG samples recorded from AF7
+AF3: EEG samples recorded from AF3
+AF4: EEG samples recorded from AF4
+AF8: EEG samples recorded from AF8
+F7: EEG samples recorded from F7
+F5: EEG samples recorded from F5
+F3: EEG samples recorded from F3
+F1: EEG samples recorded from F1
+Fz: EEG samples recorded from Fz
+F2: EEG samples recorded from F2
+F4: EEG samples recorded from F4
+F6: EEG samples recorded from F6
+F8: EEG samples recorded from F8
+FT7: EEG samples recorded from FT7
+FC5: EEG samples recorded from FC5
+FC3: EEG samples recorded from FC3
+FC1: EEG samples recorded from FC1
+FCz: EEG samples recorded from FCz
+FC2: EEG samples recorded from FC2
+FC4: EEG samples recorded from FC4
+FC6: EEG samples recorded from FC6
+FT8: EEG samples recorded from FT8
+T7: EEG samples recorded from T7
+C5: EEG samples recorded from C5
+C3: EEG samples recorded from C3
+C1: EEG samples recorded from C1
+Cz: EEG samples recorded from Cz
+C2: EEG samples recorded from C2
+C4: EEG samples recorded from C4
+C6: EEG samples recorded from C6
+T8: EEG samples recorded from T8
+TP7: EEG samples recorded from TP7
+CP5: EEG samples recorded from CP5
+CP3: EEG samples recorded from CP3
+CP1: EEG samples recorded from CP1
+CPz: EEG samples recorded from CPz
+CP2: EEG samples recorded from CP2
+CP4: EEG samples recorded from CP4
+CP6: EEG samples recorded from CP6
+TP8: EEG samples recorded from TP8
+P7: EEG samples recorded from P7
+P5: EEG samples recorded from P5
+P3: EEG samples recorded from P3
+P1: EEG samples recorded from P1
+Pz: EEG samples recorded from Pz
+P2: EEG samples recorded from P2
+P4: EEG samples recorded from P4
+P6: EEG samples recorded from P6
+P8: EEG samples recorded from P8
+PO7: EEG samples recorded from PO7
+POz: EEG samples recorded from POz
+P08: EEG samples recorded from P08
+O1: EEG samples recorded from O1
+O2: EEG samples recorded from O2
+EOG: samples recorded from EOG derivation
+FeedBackEvent: a zero vector  except for each occurring feedback timestamp for which value is equal to one
+
+
+LABEL FILE:
+TrainLabels.csv -> The expected labels  for the training set.
